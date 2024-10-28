@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Capstone 1</title>
+
+	<!-- Bootstrap link -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	<!-- External Css -->
+	<link rel="stylesheet" type="text/css" href="./index.css">
+
+	<!-- GoogleFonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-dark text-white bg-green1">
+		<div class="container-fluid">
+			<a href="#landing" class="navbar-brand d-lg-none" id="akonato">Renz</a>
+			<button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ms-auto text-start mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#landing">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="#projects">Projects</a>
+					</li>
+				</ul>
+
+				<a class="navbar-brand mx-3 d-none d-lg-inline" id="akonato" href="#landing">Renz</a>
+
+				<ul class="navbar-nav me-auto text-start mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" href="#tools">Tools</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- Landing Section -->
+	<div id="landing" class="container-fluid">
+		<div class="row justify-content-center align-items-center py-4 py-lg-5 bg-green1 text-white">
+			<div class="col-10 col-md-3 p-3 py-lg-5">
+				<img id="landingimg" src="./images/landingimage.jpg" class="rounded-circle img-fluid">
+			</div>
+			<div class="col-md-7 col-lg-5 pe-md-5 py-lg-5">
+				<h1>Renz Sedfrey</h1>
+				<h3>Full Stack Web Developer</h3>
+				<p>Hi, I'm Renz! I'm currently an architecture student with a deep passion for music and video games. Lately, I've discovered a new interest in web development and have decided to shift my career path in that direction. I love exploring the blend of creativity and technology, and I'm excited to apply my design background to building functional and beautiful websites. Whether it's creating immersive environments or coding sleek interfaces, I'm always up for a challenge that pushes my creative and technical limits.</p>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Projects Section -->
+	<div id="projects" class="bg-green2  text-green1 h-50">
+		<h2 class="text-center py-3">Projects</h2>
+		<div id="carouselExampleIndicators" class="carousel h-1 slide" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="./images/proj1.jfif" class="d-block w-100 img-fluid" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="./images/proj3.jpg" class="d-block w-100 img-fluid" alt="...">
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+	</div>
+
+	
+	<!-- Tools Section -->
+	<div id="tools" class="bg-green2 text-green1 py-5">
+		 <h3 class="text-center">Core Tools</h3>
+
+                <div id="core-tools" class="d-flex flex-column align-items-center">
+                    <div id="html-img" class="d-flex justify-content-center">
+                        <img width="150" src="images/logo-html5.png"/>
+                    </div>
+                    <div id="css-js" class="d-flex justify-content-center">
+                        <img width="150" src="images/logo-css3.png"/>
+                        <img width="150" src="images/logo-javascript.png"/>
+                    </div>
+                </div>
+                <!-- Core Tools Section End -->
+                
+                <!-- Other Tools Section Start -->
+                <h3 class="text-center mt-3">Other Tools</h3>
+
+                <div id="other-tools" class="d-flex justify-content-center align-items-center flex-row flex-md-column">
+                    <div id="tools-1" class="d-md-flex align-items-center justify-content-center">
+                        <img width="150" src="./images/logo-mongodb.png"/>
+                        <img width="150" src="./images/logo-nodejs.png"/>
+                        <img width="150" src="./images/logo-expressjs.png"/>
+                        <img width="150" src="./images/logo-react.png"/>
+                        <img width="150" src="./images/logo-heroku.png"/>
+                    </div>
+                    <div id="tools-2" class="d-md-flex align-items-center justify-content-center">
+                        <img width="150" src="images/logo-git.png"/>
+                        <img width="150" src="images/logo-sublime-text-3.png"/>
+                        <img width="150" src="images/logo-postman.png"/>
+                        <img width="150" src="images/logo-gitlab-ci-cd.png"/>
+                    </div>
+                </div>
+	</div>
+
+<!-- Contacts Section -->
+	<div id="contact">
+		<h1 class="text-center pt-5">Contact Me</h1>
+		<div class="d-flex justify-content-center my-3 gap-5">
+			<a href="https://www.linkedin.com/in/renz-abenoja-683b15240/"><img src="./images/linkedingreen.png" class="img-square"></a>
+			<a href="https://www.facebook.com/rnzsdfry/" target="blank"><img src="./images/fbgreen.png" class="img-square"></a>
+			<a href=""><img src="./images/githubgreen.png" class="img-square"></a>
+		</div>
+		<div class="border bg-green2 col-12 col-md-6 align-content-center container-fluid px-5">
+			<div class="mt-3">
+				<h2>Message Me</h2>
+			</div>
+			<div class="mb-3">
+				<label for="contact" class="form-label">Full Name</label>
+				<input type="text" class="form-control" id="name" placeholder="Renz Abenoja">
+			</div>
+
+			<div class="mb-3">
+				<label for="contact" class="form-label">Email Address</label>
+				<textarea class="form-control" id="email" placeholder="email@email.com"></textarea>
+			</div>
+
+			<div class="mb-3">
+				<label for="contact" class="form-label">Message</label>
+				<textarea class="form-control" id="me" rows="3"></textarea>
+			</div>
+			<div class="text-end">
+				<button type="button" class="btn text-white btn-start bg-green1 text-end rounded-pill pe-4 ps-4 mb-3" data-bs-toggle="modal" data-bs-target="#modalDiv">Submit
+				</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer class="bg-green1 text-white justify-content-center text-center">
+		<div class="d-flex justify-content-center align-content-center gap-2">
+			<p>Renz Abenoja</p>
+			<p>||</p>
+			<p>Full Stack Web Developer</p>
+		</div>
+		<div>
+			<p>&copy; 2024 For academical purposes only.</p>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+body {
+	font-family: "Cinzel";
+}
+.name-nav {
+
+}
+
+.bg-green1 {
+	background-color: #265016;
+}
+
+.bg-green2 {
+	background-color: #9edd87;
+}
+
+.img-square {
+	height: 50px;
+	width: 50px;
+}
+
+.text-green1 {
+	color: #265016;
+}
